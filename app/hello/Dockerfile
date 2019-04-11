@@ -1,4 +1,4 @@
 FROM alpine:3.1
-MAINTAINER Kelsey Hightower <kelsey.hightower@gmail.com>
+LABEL maintainer="My Ho"
 ADD hello /usr/bin/hello
 ENTRYPOINT ["hello"]
